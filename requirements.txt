@@ -2,3 +2,4 @@ numpy
 pylint
 pytest
 pytest-cov
+pytest-mock

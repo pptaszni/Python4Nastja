@@ -6,9 +6,8 @@ addressed to CERN through mail-KT@cern.ch
 Author: Pawel Ptasznik CERN EN/SMM/MRO
 """
 
-import os
-import sys
-sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
+__all__ = []
 
-import example_module # pylint: disable=wrong-import-position,unused-import
-import robotic_arm_module # pylint: disable=wrong-import-position,unused-import
+from .robotic_arm import Arm2DOF
+from .arm_remote_controller import ArmRemoteController
+from .arm_remote_controller import SomeNetwork
