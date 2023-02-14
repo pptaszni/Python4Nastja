@@ -14,6 +14,7 @@ class Arm2DOF:
         self.__L1__ = 4.0
         self.__L2__ = 3.0
     def get_joints_coordinates(self):
+        dupa
         return (self.__q1__, self.__q2__)
     def get_cartesian_coordinates(self):
         return (0.0, 0.0)
